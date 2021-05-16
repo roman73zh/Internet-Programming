@@ -1,0 +1,109 @@
+#svg_map {
+	z-index: 0;
+}
+#toolTip {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	min-width:250px;	
+}
+.ToolTipFrameClass {
+	background-color: #fff;
+	border: 2px solid #bbb;
+	border-radius: 10px;
+	padding: 5px;
+	opacity: .90;
+	max-width: 300px;
+	border-collapse: separate;	
+}
+.ToolTipFrameClass TD {
+	background-color:inherit;
+}
+.toolTipCommentClass {
+    padding-left: 15px;
+	font-size: 11px;
+	font-family: arial;
+	color: #000000;
+}
+.toolTipCommentClass ul {
+    padding-left: 15px;
+}
+#toolTipName {
+	color: #fff;
+	text-shadow: -1px 0 #2E2300, 0 1px #2E2300, 1px 0 #2E2300, 0 -1px #2E2300;
+	font-size: 14px;
+	font-weight:bold;
+	padding: 5px;
+	font-family: arial;
+}
+.modal-body {
+    text-align: justify;
+}
+
+TD {
+background-color:#ffffff;
+}
+
+
+.ramka td {
+	border:1px solid #999999;
+}
+.small {
+	font-size:10px;
+	font-family:arial;
+	color:#666666;
+}
+.small2 {
+	font-size:11px;
+	color:#666666;
+}
+.license {
+	margin-top:5px;
+}
+.license TD {
+	border:1px solid #D4DEE6;
+	padding:3 3 3 10px;
+}
+.pad {
+	padding-left:10px;
+	font-size:12px;
+}
+.red {
+	color:#FF0000;
+}
+H2 {
+	padding:0 0 0 0px;
+	margin:10 0 10 0px;
+}
+.license_price {
+	width: 200px;
+	border: 1px solid #d4dee6;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.license_info {
+	border:1px solid #d4dee6;
+	padding: 5px;
+	vertical-align:top;
+}
+.license_info h5 {
+	font-size:16px;
+	color:#cc0000;
+	margin:0 0 0 0px;	
+	padding:0 0 0 0px;	
+}
+.license_info h4 {
+	font-size:18px;
+	font-weight:bold;
+	color:#0062c4;
+	margin:0 0 0 0px;
+	padding:0 0 0 0px;
+}
+H3 {
+	color:#333333;	
+}
+#exampleModalLabel {
+    font-weight: bold;
+    display: inline-block;
+}
